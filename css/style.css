@@ -1,3 +1,7 @@
+#mainbox {
+  width: 1500px;
+}
+
 .periodictable {
   
 }
@@ -71,4 +75,46 @@
 
 .atomicmass.key {
   font-size: 8px;
+}
+
+/* Color Groups */
+
+.am {
+  background-color: red;
+}
+
+.ae {
+  background-color: orange;
+}
+
+.tm {
+  background-color: yellow;
+}
+
+.bm {
+  background-color: green;
+}
+
+.sm {
+  background-color: darkseagreen;
+}
+
+.nm {
+  background-color: dodgerblue;
+}
+
+.ha {
+  background-color: violet;
+}
+
+.ng {
+  background-color: rebeccapurple;
+}
+
+.la {
+  background-color: greenyellow;
+}
+
+.ac {
+  background-color: darkgreen;
 }
