@@ -1,0 +1,10 @@
+.periodictable{
+  
+}
+
+.tableelement{
+  width: 75px;
+  height: 100px;
+  border: solid black 1px;
+  margin: 1px;
+}
