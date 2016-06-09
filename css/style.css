@@ -9,9 +9,16 @@
 .tableelement {
   width: 75px;
   height: 100px;
-  border: solid black 1px;
   margin: 1px;
   text-align: center;
+  border-radius: 3px;
+  box-shadow: 2px 2px 3px #d1d1d1;
+}
+
+.tableelement.key {
+  width: 100px;
+  height: 50px;
+  padding: auto;
 }
 
 .atomicnumber, .boilingpoint, .atomicmass {
@@ -80,41 +87,41 @@
 /* Color Groups */
 
 .am {
-  background-color: red;
+  background-color: #E57373;
 }
 
 .ae {
-  background-color: orange;
+  background-color: #FFB74D;
 }
 
 .tm {
-  background-color: yellow;
+  background-color: #FFE082;
 }
 
 .bm {
-  background-color: green;
+  background-color: #AED581;
 }
 
 .sm {
-  background-color: darkseagreen;
+  background-color: #81C784;
 }
 
 .nm {
-  background-color: dodgerblue;
+  background-color: #4FC3F7;
 }
 
 .ha {
-  background-color: violet;
+  background-color: #CE93D8;
 }
 
 .ng {
-  background-color: rebeccapurple;
+  background-color: #B39DDB;
 }
 
 .la {
-  background-color: greenyellow;
+  background-color: #E6EE9C;
 }
 
 .ac {
-  background-color: darkgreen;
+  background-color: #4DB6AC;
 }
