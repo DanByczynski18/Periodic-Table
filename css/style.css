@@ -1,10 +1,32 @@
-.periodictable{
+.periodictable {
   
 }
 
-.tableelement{
+.tableelement {
   width: 75px;
   height: 100px;
   border: solid black 1px;
   margin: 1px;
+  text-align: center;
+}
+
+.atomicnumber, .boilingpoint, .atomicmass {
+  margin: 0px 2px 0px 2px;
+  font-size: 12px;
+}
+
+.atomicnumber {
+  float: left;
+}
+
+.boilingpoint {
+  float: right;
+}
+
+.symbol, .name {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.name {
 }
