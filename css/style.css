@@ -36,3 +36,11 @@
 .name.long {
   font-size: 12px;
 }
+
+.name.longer {
+  font-size: 10px;
+}
+
+.boilingpoint.long {
+  font-size: 10px;
+}
