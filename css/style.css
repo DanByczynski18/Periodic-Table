@@ -38,9 +38,37 @@
 }
 
 .name.longer {
+  font-size: 11px;
+}
+
+.name.longest {
   font-size: 10px;
 }
 
 .boilingpoint.long {
   font-size: 10px;
+}
+
+/* Key Style */
+.atomicnumber.key {
+  font-size: 8px;
+}
+
+.boilingpoint.key {
+  font-size: 8px;
+}
+
+.symbol.key {
+  margin-top: 35px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.name.key {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.atomicmass.key {
+  font-size: 8px;
 }
