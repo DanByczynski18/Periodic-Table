@@ -146,7 +146,11 @@
   height: 600px;
   width: 1000px;
   background-color: green;
-  margin: 15px auto;
-  float: left;
-  z-index: 1
+  margin: 350px auto 15px;
+  position: absolute;
+  left: 5%;
+  right: 0;
+  z-index: 1;
+  
+  
 }
