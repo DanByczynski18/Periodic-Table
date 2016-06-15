@@ -24,15 +24,6 @@
   box-shadow: 2px 2px 3px #111;
 }
 
-.tableelement:onclick {
-  z-index: 1;
-  -ms-transform: scale(3,2); /* IE 9 */
-  -webkit-transform: scale(3,2); /* Safari */
-  transform: scale(3,2);
-  border: 1px solid black;
-  box-shadow: 2px 2px 3px #111;
-}
-
 .tableelement.key {
 
   padding: auto;
@@ -147,4 +138,15 @@
 
 .ac {
   background-color: #4DB6AC;
+}
+
+/* Infobox Styling */
+
+.infobox {
+  height: 600px;
+  width: 1000px;
+  background-color: green;
+  margin: 15px auto;
+  float: left;
+  z-index: 1
 }
