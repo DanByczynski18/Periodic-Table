@@ -145,12 +145,35 @@
 .infobox {
   height: 600px;
   width: 1000px;
-  background-color: green;
-  margin: 350px auto 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #222;
+  padding: 20px;
+  
+  margin: 200px auto 15px;
   position: absolute;
   left: 5%;
   right: 0;
   z-index: 1;
   
   
+}
+
+.infotable {
+  background-color: #eee;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.infotable td{
+  margin: 5px;
+  padding: 15px;
+}
+
+.infotable th {
+    height: 50px;
+  margin: 5px;
+  padding: 15px;
+  text-align: right;
+  border-right: 1px solid black;
 }
